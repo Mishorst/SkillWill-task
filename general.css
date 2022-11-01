@@ -191,7 +191,6 @@ h1 {
 }
 
 .footer {
-  height: 315px;
   margin: 84px 135px 55px 135px;
   display: flex;
   justify-content: space-between;
@@ -205,13 +204,27 @@ h1 {
 }
 
 .menu {
-  width: 754px;
+  width: 812px;
   height: 176px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  column-gap: 113px;
+  row-gap: 22px;
 }
 
 h4 {
   font-size: 18px;
   font-weight: 500;
+  color: #2d3134;
+  margin-bottom: 22px;
+}
+
+.twice {
+  grid-row: span 2;
+}
+
+.footer-text {
+  color: #676a6c;
+  font-size: 14px;
+  font-weight: 400;
 }
